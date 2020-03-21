@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+  <title>생일 축하</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+    #grid ol{
+      padding-left:33px;
+    }
+    #grid #article{
+      padding-left:25px;
+    }
+    .test {
+  display: inline-block;
+  margin: 50px auto 0;
+  padding: 10px 25px;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.test span {
+  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.test:hover {
+  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+}
+
+.test:hover span {
+  background: none;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+}
+  </style>
+</head>
+<body>
+  <h1><a href="index.html" style="color:skyblue;">김영욱의 20번째 생일을 축하합니다!</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="web1.html">개요</a></li>
+      <li><a href="web2.html">취미</a></li>
+      <li><a href="web3.html">미래목표</a></li>
+      <li><a href="web4.html">6941</a></li>
+    </ol>
+    <div id="article">
+      <p class="test"><span>나는 꿈꾸는 사람</span></p>
+        <p>
+          <img src="syou.jpg" width="600" height="700"><br>
+          <div style="font-size:30px"><div style="color:skyblue">이제 막 <u>20살</u>이 된 나의 목표는</div>
+            <ul>
+              <li>결혼을 하고 아이를 키우며 오손도손 살고싶다</li>
+              <li>사랑이나 가치에 대해 연설하는 연설가가 되고싶다!</li>
+              <li>사업가가 되고싶다!</li>
+              <li>아이들을 교육하는 학교를 만들고 싶다!</li>
+              <li>특별한 식당을 차리고 싶다!</li>
+              <li>사랑을 모토로 정치계에 나가고 싶다!</li>
+            </ul>
+            <div style="color:green">김영욱군의 꿈을 응원합니다!</div>
+
+
+          </div>
+        </p>
+      </div>
+  </div>
+  </body>
+  </html>
